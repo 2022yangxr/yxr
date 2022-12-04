@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv0"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/cqupt"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重邮3G圣经"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="135dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    2005年10月9日下午2:30，重庆市人民政府新闻办公室在重庆市新闻发布中心举行了新闻发布会。会议郑重发布了“世界第一颗0.13微米工艺的TD-SCDMA 3G手机核心芯片在重庆诞生”这一令国人自豪和骄傲的重大喜讯。重庆市人民政府新闻办和重庆邮电学院在此间联合宣布：具有我国自主知识产权的世界首枚“通芯一号”3G手机核心芯片已由重庆重邮信科股份有限公司（简称重邮信科）研发成功，并向媒体人介绍这是世界上第一枚0.13微米工艺的TD-SCDMA 3G手机基带芯片。它的诞生，标志着我国3G通信核心芯片等关键技术已达到了世界领先水平。实现了从“中国制造”到“中国创造”的跨越。
+" />
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="听了3G的故事，肯定爱上重邮了吧"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        android:textColor="@color/black"
+        />
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="60dp"
+            android:text="点击成为一名光荣的邮兵吧"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/solider"/>
+
+
+
+</LinearLayout>
